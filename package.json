@@ -26,9 +26,9 @@
     "author": "Ivo Sequeros",
     "license": "GPL-3.0",
     "dependencies": {
-        "@types/kafkajs": "^1.4.1",
+        "@types/kafkajs": "1.8.0",
         "avsc": "^5.4.7",
-        "kafkajs": "^1.7.0",
+        "kafkajs": "1.8.0",
         "node-fetch": "^2.3.0"
     },
     "repository": {
