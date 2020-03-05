@@ -1,6 +1,6 @@
 {
     "name": "kafkajs-avro",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "KafkaJS + unopinionated Avro encoding/decoding based on subject and version",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -16,6 +16,9 @@
         "lint": "prettier --parser typescript --list-different \"**/*.{ts,tsx}\"",
         "format": "prettier --parser typescript --write \"**/*.{ts,tsx}\""
     },
+    "files": [
+        "build/"
+    ],
     "keywords": [
         "avro",
         "kafkajs",
